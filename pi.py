@@ -5,8 +5,6 @@ from pyspark import SparkContext
 
 if __name__ == "__main__":
 
-
-    #conf = sparkConf = new SparkConf().serAppName("Dupa")
     sc = SparkContext(appName="mypi")
 
     partitions = 2
